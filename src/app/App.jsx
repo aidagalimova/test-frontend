@@ -1,5 +1,5 @@
 import './App.scss';
-import UsersPage from '../pages/UsersPage';
+import UsersPage from '../pages/users-page';
 
 function App() {
   return (

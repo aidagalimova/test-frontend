@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getUsers } from '../../servises/users';
+import { getUsers } from '../../services/users';
 import UserCard from '../user-card';
 import './index.scss';
 

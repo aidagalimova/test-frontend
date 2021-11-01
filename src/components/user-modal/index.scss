@@ -1,0 +1,86 @@
+.background {
+    background: rgba(63, 51, 86, 0.4);
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    margin-left: -48px;
+    .modal {
+        position: absolute;
+        width: 916px;
+        height: 573px;
+        left: 262px;
+        top: 225px;
+        background: #ffffff;
+        box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 12px;
+        z-index: 25;
+        .title {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ecebed;
+            &-text {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 34px;
+                line-height: 41px;
+                margin: 0px;
+                margin-bottom: 19px;
+                margin-left: 34px;
+                margin-top: 20px;
+            }
+            .remove-icon {
+                cursor: pointer;
+                margin-top: 20px;
+                margin-right: 34px;
+            }
+        }
+        .content {
+            margin-top: 34px;
+            margin-left: 34px;
+            .user-info {
+                display: inline-block;
+                margin-right: 28px;
+                margin-bottom: 28px;
+                width: 240px;
+                height: 48px;
+                background: #ffffff;
+                border: 1px solid #ecebed;
+                box-sizing: border-box;
+                box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+                border-radius: 6px;
+                &-text {
+                    width: 176px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    color: #1a051d;
+                    margin-left: 16px;
+                    margin-right: 16px;
+                    display: inline-block;
+                }
+                .dropdown {
+                    display: inline-block;
+                }
+            }
+        }
+        .btn {
+            width: 180px;
+            height: 40px;
+            background: #6979f8;
+            border: 0px;
+            border-radius: 6px;
+            position: inherit;
+            bottom: 22px;
+            right: 22px;
+            cursor: pointer;
+            &-text {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.card {
+    background-color: white;
+    margin-bottom: 18px;
+    border-radius: 4px;
+    height: 80px;
+    filter: drop-shadow(0px 7px 20px rgba(0, 0, 0, 0.07));
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    .text {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 20px;
+        font-style: normal;
+        font-weight: 400;
+        color: black;
+        margin-top: 30px;
+    }
+    .user-info {
+        display: flex;
+        .avatar {
+            display: inline-block;
+            margin: 16px 16px;
+        }
+        .name-text {
+            width: 140px;
+            display: inline-block;
+        }
+    }
+    .update-text {
+        width: 296px;
+        display: inline-block;
+        text-align: left;
+        color: #a8a8a8;
+    }
+    .status-text {
+        width: 193px;
+        text-align: right;
+        color: #3f3356;
+    }
+    .dropdown {
+        display: inline-block;
+        margin-right: 64px;
+        margin-left: 16px;
+    }
+}
